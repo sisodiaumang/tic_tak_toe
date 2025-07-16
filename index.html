@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="apple touch icon" href="img/apple-touch-icon.png" type="png">
+    <link rel="icon" href="img/favicon-32x32.png">
+</head>
+
+<body>
+    <div class="modewrapper">
+        <input type="checkbox" name="toggle" id="bg">
+        <label class="bgb" for="bg"></label>
+    </div>
+    <h2 id="heading">Tic Tak Toe</h2>
+    <div class="background">
+        <div class="wrapper">
+            <div class="row"><button class="box"></button><button class="box"></button><button class="box"></button>
+            </div>
+            <div class="row"><button class="box"></button><button class="box"></button><button class="box"></button>
+            </div>
+            <div class="row"><button class="box"></button><button class="box"></button><button class="box"></button>
+            </div>
+        </div>
+    </div>
+    <audio id="winsound" src="sound/winsound.mp3" preload="auto"></audio>
+<audio id="crosssound" src="sound/crosssound.wav" preload="auto"></audio>
+<audio id="circlesound" src="sound/circlesound.wav" preload="auto"></audio>
+    <button class="reset">Reset</button>
+    <div class="winwrapper">
+        <div class="winbg">
+            <div class="winscreen"></div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
