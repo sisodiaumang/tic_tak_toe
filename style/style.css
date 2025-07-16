@@ -330,18 +330,7 @@ input:checked+.bgb::after {
     height: 70%;
     width: 70%;
     border-radius: 100px;
-    border: 8px solid blue;
-    }
-    .winscreen{
-        font-size: 8vw;
-    }
-}
-@media screen and (max-width:400px ){
-    .y1 {
-    height: 70%;
-    width: 70%;
-    border-radius: 100px;
-    border: 6px solid blue;
+    border: 9px solid blue;
     }
     .winscreen{
         font-size: 8vw;
