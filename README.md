@@ -33,7 +33,7 @@ tic_tak_toe/
 ## 🚀 How to Run Locally
 
 1. Clone the repository  
-git clone https://github.com/sisoidaumang/tic_tak_toe.git
+git clone https://github.com/sisodiaumang/tic_tak_toe.git
 2. Open the `index.html` file in your browser  
 3. Play and enjoy!
 
