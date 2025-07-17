@@ -232,7 +232,7 @@ input:checked+.bgb::after {
 .modewrapper {
     position: absolute;
     left: 0;
-    bottom: 2vh;
+    bottom: 4.5vh;
     height: 50px;
     width: 100px;
     margin: 20px;
