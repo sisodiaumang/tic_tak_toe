@@ -174,7 +174,7 @@ h2 {
     height: 70%;
     width: 70%;
     border-radius: 100px;
-    border: 12px solid blue;
+    border: 17px solid blue;
 }
 
 .x,
@@ -309,30 +309,23 @@ input:checked+.bgb::after {
     height: 70%;
     width: 70%;
     border-radius: 100px;
-    border: 20px solid blue; }
+    border: 16px solid blue; }
     .winscreen{
         font-size: 8vw;
     }
 }
 @media screen and (max-width:600px ){
     .y1 {
-    height: 70%;
-    width: 70%;
-    border-radius: 100px;
-    border: 12px solid blue;
-    }
-    .winscreen{
-        font-size: 8vw;
+    border: 14px solid blue;
     }
 }
 @media screen and (max-width:450px ){
     .y1 {
-    height: 70%;
-    width: 70%;
-    border-radius: 100px;
-    border: 9px solid blue;
+    border: 10px solid blue;
     }
-    .winscreen{
-        font-size: 8vw;
+}
+@media screen and (max-width:400px ){
+    .y1 {
+    border: 8px solid blue;
     }
 }
