@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .background {
@@ -119,9 +120,11 @@ body {
 
 h2 {
     margin: 25px;
-    font-size: 50px;
+    font-size: clamp(50px, 8vh, 55px);
     color: #FF6868;
     text-shadow: 3px 2px #43100a;
+    position: relative;
+    top:-6vh;
 }
 
 
